@@ -1,0 +1,71 @@
+.math-trainer {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.problem {
+  margin: 30px 0;
+  font-size: 24px;
+}
+
+.problem input {
+  font-size: 20px;
+  width: 80px;
+  padding: 5px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.feedback {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.correct {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.incorrect {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.stats {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.reset-btn {
+  background-color: #dc3545;
+}
